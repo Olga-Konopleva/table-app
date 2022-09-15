@@ -1,0 +1,35 @@
+:root {
+  --percent: 10%;
+}
+
+.cell {
+  position: relative;
+}
+
+.cell:hover {
+  background-color: rgb(58, 72, 196);
+  color: white;
+}
+
+.highlight {
+  background-color: rgb(173, 229, 255);
+}
+
+.rowId {
+  background-color: rgba(0, 55, 255, 0.05);
+}
+
+.summary {
+  background-color: rgb(250, 194, 89);
+}
+
+.rowId::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--percent);
+  height: 100%;
+  background-color: rgba(255, 110, 110, 0.25);
+}

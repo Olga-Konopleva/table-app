@@ -1,0 +1,36 @@
+.scrollWrapper {
+  overflow: auto;
+  width: calc(100% - 50px);
+  padding-right: 50px;
+}
+
+.table {
+  max-width: calc(100% - 100px);
+  text-align: center;
+  border-collapse: collapse;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+td {
+  min-width: 50px;
+  max-width: 50px;
+  border: 1px solid grey;
+  padding: 5px;
+}

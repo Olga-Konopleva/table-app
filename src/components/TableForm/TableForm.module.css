@@ -1,0 +1,30 @@
+.wrapper {
+  background-color: rgb(173, 229, 255);
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formItem {
+  margin-right: 25px;
+}
+
+.fieldTitle {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.formInput {
+  font-size: 20px;
+  padding: 2px 10px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
